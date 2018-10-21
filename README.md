@@ -1,4 +1,4 @@
-# Your weight on distant and potentially habitable exoplanets
+# Your weight on some distant and potentially habitable exoplanets
 
 This project implements React's Render Props pattern (children as a function approach), trying to give you a good example of its value.
 
