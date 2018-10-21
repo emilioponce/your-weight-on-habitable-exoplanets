@@ -1,0 +1,17 @@
+.wrapper {
+  background-color: rgb(255, 159, 191);
+  margin: 15px;
+  padding: 15px;
+  width: 20%;
+}
+
+.weight {
+  font-size: 150%;
+  color: rgb(214, 2, 73);
+}
+
+.image {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+}

@@ -9,7 +9,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  font-size: calc(10px + 1.5vmin);
   color: white;
 }
 
@@ -19,6 +19,14 @@
 
 .App-link {
   color: #61dafb;
+}
+
+.App-planets {
+  display: flex;
+}
+
+.App-footer {
+  font-size: 90%;
 }
 
 @keyframes App-logo-spin {
