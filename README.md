@@ -10,7 +10,7 @@ In this example we want to know our hypothetical weight in some known exoplanets
 
 In this implementation, you are going to find a 'Weight' component that's in charge of store weight in his own state, and an 'APP' component that invokes 'Weight' applying render props pattern as children as a function, in order to obtain the Weight state value and pass it as a property to the different planets.
 
-_In order to maintain the simplicity in this first implementation, Exoplanet components remain independent, even being very similar._
+_In order to maintain the simplicity in this first implementation Exoplanet components remain fully independent, even being very similar and therefore being able to share some code_
 
 ## Stack
 
