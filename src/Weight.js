@@ -22,7 +22,7 @@ class Weight extends Component {
     e.target.checked === true
       ? this.setState({
           weight: this.state.weight * CONVERSION_FACTOR,
-          units: "lb"
+          units: "lbs"
         })
       : this.setState({
           weight: this.state.weight / CONVERSION_FACTOR,
@@ -32,7 +32,7 @@ class Weight extends Component {
 
   render() {
     return (
-      <div className={styles.wrapper}>
+      <div>
         <h3>
           Introduce your weight on Planet Earth:{" "}
           <input
@@ -42,7 +42,7 @@ class Weight extends Component {
             type="number"
           />
         </h3>
-        <div>
+        <div className={styles.checkbox}>
           <input type="checkbox" onClick={this.toggleUnits} /> Weight in Pounds
         </div>
         <div>{this.props.children(this.state.weight, this.state.units)}</div>

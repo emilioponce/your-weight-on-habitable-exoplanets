@@ -22,7 +22,7 @@
 }
 
 .App-planets {
-  display: flex;
+  margin: 20px;
 }
 
 .App-footer {

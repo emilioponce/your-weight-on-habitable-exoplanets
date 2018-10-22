@@ -1,13 +1,14 @@
 .wrapper {
-  background-color: rgb(255, 233, 159);
+  background-color: rgb(238, 238, 238);
   margin: 15px;
   padding: 15px;
-  width: 20%;
+  display: inline-block;
+  box-shadow: 7px 7px 10px 0px rgba(0, 0, 0, 0.15);
 }
 
 .weight {
   font-size: 150%;
-  color: rgb(190, 147, 4);
+  color: #ca4129;
 }
 
 .image {
