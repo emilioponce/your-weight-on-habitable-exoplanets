@@ -4,7 +4,7 @@ import styles from "./Gliese.module.css";
 const earthG = 9.81;
 const glieseG = 12.94;
 
-const Gliese = ({ weight }) => (
+const Gliese = ({ weight, units }) => (
   <div className={styles.wrapper}>
     <img
       className={styles.image}
@@ -13,7 +13,7 @@ const Gliese = ({ weight }) => (
     />
     <div>Gliese 667 Cc</div>
     <div className={styles.weight}>
-      {((weight * glieseG) / earthG).toFixed(2)} Kg
+      {((weight * glieseG) / earthG).toFixed(2)} {units}
     </div>
   </div>
 );

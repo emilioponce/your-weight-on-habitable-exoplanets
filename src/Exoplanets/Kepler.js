@@ -4,7 +4,7 @@ import styles from "./Kepler.module.css";
 const earthG = 9.81;
 const keplerG = 12.75;
 
-const Kepler = ({ weight }) => (
+const Kepler = ({ weight, units }) => (
   <div className={styles.wrapper}>
     <img
       className={styles.image}
@@ -13,7 +13,7 @@ const Kepler = ({ weight }) => (
     />
     <div>Kepler-442b</div>
     <div className={styles.weight}>
-      {((weight * keplerG) / earthG).toFixed(2)} Kg
+      {((weight * keplerG) / earthG).toFixed(2)} {units}
     </div>
   </div>
 );

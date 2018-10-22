@@ -4,7 +4,7 @@ import styles from "./Wolf.module.css";
 const earthG = 9.81;
 const wolfG = 15.69;
 
-const Wolf = ({ weight }) => (
+const Wolf = ({ weight, units }) => (
   <div className={styles.wrapper}>
     <img
       className={styles.image}
@@ -13,7 +13,7 @@ const Wolf = ({ weight }) => (
     />
     <div>Wolf 1061c</div>
     <div className={styles.weight}>
-      {((weight * wolfG) / earthG).toFixed(2)} Kg
+      {((weight * wolfG) / earthG).toFixed(2)} {units}
     </div>
   </div>
 );

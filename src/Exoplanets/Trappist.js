@@ -4,7 +4,7 @@ import styles from "./Trappist.module.css";
 const earthG = 9.81;
 const trappistG = 9.12;
 
-const Trappist = ({ weight }) => (
+const Trappist = ({ weight, units }) => (
   <div className={styles.wrapper}>
     <img
       className={styles.image}
@@ -13,7 +13,7 @@ const Trappist = ({ weight }) => (
     />
     <div>Trappist-1 e</div>
     <div className={styles.weight}>
-      {((weight * trappistG) / earthG).toFixed(2)} Kg
+      {((weight * trappistG) / earthG).toFixed(2)} {units}
     </div>
   </div>
 );

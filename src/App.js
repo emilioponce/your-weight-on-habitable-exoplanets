@@ -18,12 +18,14 @@ const App = () => {
       </header>
       <div className="App-body">
         <Weight>
-          {weight => (
-            <div className="App-planets">
-              <Trappist weight={weight} />
-              <Gliese weight={weight} />
-              <Kepler weight={weight} />
-              <Wolf weight={weight} />
+          {(weight, units) => (
+            <div>
+              <div className="App-planets">
+                <Trappist weight={weight} units={units} />
+                <Gliese weight={weight} units={units} />
+                <Kepler weight={weight} units={units} />
+                <Wolf weight={weight} units={units} />
+              </div>
             </div>
           )}
         </Weight>
