@@ -24,6 +24,6 @@ This project was bootstrapped with CRA.
 
 ```sh
 git clone https://github.com/emilioponce/your-weight-on-habitable-exoplanets.git
-yarn install
+yarn
 yarn start
 ```
